@@ -104,7 +104,7 @@ def generate_line(d):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print('ERROR: Run as python markov.py <filename>')
+        print('ERROR: Run as python pynchongenerator.py <filename>')
         exit()
 
 d = process_textfile(sys.argv[1])
